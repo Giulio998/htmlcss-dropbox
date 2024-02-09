@@ -80,16 +80,30 @@ button{
 
 }
 
+.arrowSize{
+    font-size: 60px;
+}
+
 .col-4{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 15px);
 }
 
 .col-4small{
     width: calc(100% / 3 - 20px);
 }
 
+.col-4H{
+    width: calc(100% / 3 - 30px);
+}
+
+
 .col-8{
     width: calc(2 * 100% / 3);
+
+}   
+
+.col-8H{
+    width: calc(2 * 100% / 3 - 13px);
 
 }   
 
@@ -102,23 +116,32 @@ button{
 }
 
 .jumbo{
-    width: 90%;
+    width: 108%;
+    margin-bottom: -75px;
+   
 }
 
-.jumboPadding{
-    padding: 15px;
-}
 
 .biggerH2{
     font-size: 35px;
-    text-align: center;
+    
 }
+
+.radio{
+    padding: 15px;
+}
+
+.radioRow{width: 45%;}
 
 .thinFont{
     font-weight: 100;
 }
 
-.arrow{
+.iconMargin{
+    margin-right: 5px;
+}
+
+.arrowMargin{
     margin-top: auto;
 }
 
@@ -168,14 +191,33 @@ button{
 .blueBtn{
     background-color:rgb(0, 97, 255);
     color: white;
-    padding-left: 25px;
-    padding-right: 25px;
-    width: fit-content;
     font-size: 13px;
     margin: 0 auto;
     margin-bottom: 30px ;
- 
+    width: 100%;
 
+}
+
+h3{
+    font-weight: 700;
+}
+
+.paddingTop25{
+    padding-top: 25px;
+}
+
+.hrCard{
+    width: 30%;
+    color: rgb(199, 199, 199);
+}
+
+.marginH{
+margin-right: 100px;
+}
+
+.colorCheck{
+    color:#0367FF ;
+    
 }
 
 .marginTop{
@@ -184,4 +226,61 @@ button{
 
 .cardBody  li {
     margin-bottom: 15px;
+}
+
+.cardBodyH{
+    display: flex;
+
+}
+
+.cardHPadding{
+    padding: 20px;
+
+}
+
+.sectionMargin{
+    margin-bottom: 120px;
+}
+
+
+.col-60{
+    width: 60%;
+
+}
+
+.col-40{
+    width: 40%;
+    padding-left: 26px;
+
+}
+
+.partnerImg{
+    width: 100%;
+    padding-right: 10px;
+}
+
+.marginBottom20{
+    margin-bottom: 20px;
+}
+
+.marginBottom40{
+    margin-bottom: 40px;
+}
+
+.whiteBtn{
+    background-color: white;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.cardSmallImg{
+    width: 100%;
+}
+
+.cardSmallPadding{
+    padding: 10px;
+}
+
+.fontSize14{
+    font-size: 14px;
 }
