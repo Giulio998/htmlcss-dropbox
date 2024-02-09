@@ -56,6 +56,16 @@ button{
     justify-content: center;
 }
 
+.flexCenterAlign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alignCenter{
+    align-items: center;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
@@ -283,4 +293,83 @@ margin-right: 100px;
 
 .fontSize14{
     font-size: 14px;
+}
+
+.col-33{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+.partnerLogo{
+    width: 50%;
+    filter: invert(1);
+
+}
+
+.partnerSquare{
+    height: 50%;
+    width: 50%;
+}
+
+.squarePadding2{
+    padding: 20px;
+}
+
+.backgroundTopps {
+    background-color: #FF1C1C;
+}
+
+.backgroundUF {
+    background-color: #0093CE;
+}
+    
+.backgroundAsu{
+    background-color: #61082B;
+}
+
+.backgroundDesignit{
+    background-color: #A2D39B;
+    border: 5px solid #D1E9CD;
+}
+
+.backgroundWorld{
+    background-color: #D5001F;
+}
+
+.backgroundHearst{
+    background-color: #B4D0E7;
+}
+
+.backgroundLonely{
+    background-color: #0D2481;
+}
+
+.backgroundClear{
+    background-color: #FFD830;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.customLogo{
+    width: 52%;
+}
+
+.bigSquareBack{
+    background-color: #F5F5F5;
+   
+}
+
+.overflow{
+    overflow: auto;
 }
