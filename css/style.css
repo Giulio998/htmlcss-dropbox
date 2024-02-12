@@ -10,6 +10,11 @@ ul, li {
     text-decoration: none;
 }
 
+footer li a{
+    text-decoration: none;
+    color: white;
+}
+
 button{
     padding: 10px;
     border: none;
@@ -23,6 +28,39 @@ button{
     color: white;
 
 }
+
+.relative{
+    position: relative;
+}
+
+.details:hover .hide{
+    display: block;
+}
+
+
+
+.hide{
+    display: none;
+}
+
+.details:hover .dArrow{
+    display: none;
+
+}
+
+.upArrow{
+    position: absolute;
+    top: 6px;
+    right: 25px;
+    display: none;
+    
+}
+
+.details:hover .upArrow{
+  
+    display: block;
+}
+
 
 .containerLarge{
     width: 100%;
@@ -93,11 +131,16 @@ button{
 
 .navBar{
     min-height: 80px;
+    padding: 0 15px;
 }
 
-.navBar li {
+.navBar li:not(.logo) {
    padding: 15px;
 
+}
+
+.navBar > div > img{
+padding-bottom: 2px;
 }
 
 .heroBackground{
@@ -106,7 +149,7 @@ button{
 
 .heroTitle{
     font-size: 65px;
-    padding: 15px;
+    padding: 15px 0;
     margin-bottom: 20px;
 
 }
